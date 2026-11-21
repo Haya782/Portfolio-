@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Haya's Creative Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="contact-config.js"></script>
+<script defer src="contact.js"></script>
+<script defer src="art.js"></script>
+<script defer src="dialogs.js"></script>
+</head>
+<body class="portfolio">
+<header><a class="brand" href="index.html"><span class="mark" aria-hidden="true">H</span>Haya’s Creative Portfolio</a>
+<nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#contact">Contact</a>
+</nav>
+</header>
+<main>
+<section class="hero">
+<div>
+<p class="kicker">Creative portfolio</p>
+<h1>Turning Ideas Into <em>Digital Experiences</em></h1>
+<p class="lead">Explore my projects, creativity, and passion for technology.</p><a class="btn" href="#projects">Explore My Work</a></div>
+<canvas class="art" data-art="portfolio" role="img" aria-label="A sculptural loop formed from flowing bands of color">
+</canvas></section>
+<section class="section" id="projects">
+<h2>Selected projects</h2>
+<div class="grid">
+<article class="card project">
+<div class="mock crop" role="img" aria-label="Multi Photo Crop concept screen showing Frame a photo.">
+<div class="screen">
+<div class="bar"><b>Multi Photo Crop</b><span>● ● ●</span></div>
+<div class="mockbody"><strong>Frame a photo.</strong>
+<div class="symbol crop-frame"></div></div>
+<div class="chips"><span>Photo</span><span>Frame</span><span>Crop</span></div></div></div>
+<div class="copy">
+<p class="project-type">Photo editing</p>
+<h3>Multi Photo Crop</h3>
+<p>Crop several photos for a single project, whether you’re framing a subject for a portfolio or removing distractions at the edge of a picture.</p>
+<div class="project-links"><a href="https://multiphotocrop.hproco.workers.dev/" class="btn" target="_blank" rel="noopener">Open photo cropper</a>
+<button class="btn alt" data-open="project0" aria-label="View details for Multi Photo Crop">View Details</button></div></div></article>
+<article class="card project">
+<div class="mock health" role="img" aria-label="HealthEra concept screen showing Small habits.">
+<div class="screen">
+<div class="bar"><b>HealthEra</b><span>● ● ●</span></div>
+<div class="mockbody"><strong>Small habits.</strong>
+<div class="symbol s1"></div></div>
+<div class="chips"><span>Nutrition</span><span>Movement</span><span>Rest</span></div></div></div>
+<div class="copy">
+<p class="project-type">Health education</p>
+<h3>HealthEra</h3>
+<p>Explore how food, movement, and everyday routines fit together in a guide to healthier habits.</p>
+<div class="project-links"><a href="https://mini0health0era.hproco.workers.dev/" class="btn" target="_blank" rel="noopener">Explore HealthEra</a>
+<button class="btn alt" data-open="project1" aria-label="View details for HealthEra">View Details</button></div></div></article>
+<article class="card project">
+<div class="mock velvet" role="img" aria-label="Velvet Drop multi-link downloader interface.">
+<div class="screen">
+<div class="bar"><b>Velvet Drop</b><span>● ● ●</span></div>
+<div class="mockbody"><strong>Collect. Download. Zip.</strong>
+<div class="symbol s2"></div></div>
+<div class="chips"><span>Multiple links</span><span>Bulk download</span><span>ZIP archive</span></div></div></div>
+<div class="copy">
+<p class="project-type">Multi-link downloader</p>
+<h3>Velvet Drop</h3>
+<p>Add multiple file links in one place, download them together, and package the downloaded files into a single ZIP archive.</p>
+<div class="project-links"><a href="https://velvetdrop.hproco.workers.dev/" class="btn" target="_blank" rel="noopener">Try Velvet Drop</a>
+<button class="btn alt" data-open="project2" aria-label="View details for Velvet Drop">View Details</button></div></div></article></div></section>
+<section class="contact" id="contact">
+<p class="kicker">Contact</p>
+<h2>Let’s connect.</h2>
+<p class="lead">Have a project or an opportunity in mind? I’d love to hear about it.</p><a class="btn" data-email href="mailto:h7.s2.m2.emam@gmail.com?subject=Hello%20Haya">Contact Me</a> <span data-address>h7.s2.m2.emam@gmail.com</span>
+<p hidden data-contact-note class="desc">Opens an email draft. Add Haya’s address before sending.</p></section>
+<dialog id="project0" aria-labelledby="title0">
+<p class="kicker">Project details</p>
+<h2 id="title0">Multi Photo Crop</h2>
+<p>A collection of photos can share a subject but need different framing. One portrait might need more space above the face, while a landscape might benefit from a tighter edge. Multi Photo Crop brings that framing task into the browser.</p>
+<figure>
+<div class="mock crop" role="img" aria-label="Multi Photo Crop concept screen showing Find the crop">
+<div class="screen">
+<div class="bar"><b>Multi Photo Crop</b><span>● ● ●</span></div>
+<div class="mockbody"><strong>Find the crop</strong>
+<div class="symbol crop-frame"></div></div>
+<div class="chips"><span>Photo</span><span>Frame</span><span>Crop</span></div></div></div>
+<figcaption>Illustrative interface concept</figcaption>
+</figure>
+<h3>What you can do</h3>
+<ul>
+<li>Work with multiple photos.</li>
+<li>Choose which part of a picture to keep.</li>
+</ul>
+<div class="project-links">
+<a class="btn" href="https://multiphotocrop.hproco.workers.dev/" target="_blank" rel="noopener">Open photo cropper</a>
+<form method="dialog"><button class="btn alt">Close</button></form>
+</div></dialog>
+<dialog id="project1" aria-labelledby="title1">
+<p class="kicker">Project details</p>
+<h2 id="title1">HealthEra</h2>
+<p>Someone interested in a healthier routine might start with food, while someone else may want to move more during the day. HealthEra organizes these subjects into sections readers can explore at their own pace.</p>
+<figure>
+<div class="mock health" role="img" aria-label="HealthEra concept screen showing Wellness library">
+<div class="screen">
+<div class="bar"><b>HealthEra</b><span>● ● ●</span></div>
+<div class="mockbody"><strong>Wellness library</strong>
+<div class="symbol s1"></div></div>
+<div class="chips"><span>Nutrition</span><span>Movement</span><span>Rest</span></div></div></div>
+<figcaption>Illustrative interface concept</figcaption>
+</figure>
+<h3>What you can do</h3>
+<ul>
+<li>Explore nutrition and everyday food choices.</li>
+<li>Read about physical activity and wellness.</li>
+<li>Move between topics on a phone, tablet, or computer.</li>
+</ul>
+<div class="project-links">
+<a class="btn" href="https://mini0health0era.hproco.workers.dev/" target="_blank" rel="noopener">Explore HealthEra</a>
+<form method="dialog"><button class="btn alt">Close</button></form>
+</div></dialog>
+<dialog id="project2" aria-labelledby="title2">
+<p class="kicker">Project details</p>
+<h2 id="title2">Velvet Drop</h2>
+<p>Velvet Drop is a multi-link downloader. Instead of handling file links one at a time, users can add several links to one list, start a bulk download, and save the downloaded files together as a ZIP archive.</p>
+<figure>
+<div class="mock velvet" role="img" aria-label="Velvet Drop multi-link downloader preview.">
+<div class="screen">
+<div class="bar"><b>Velvet Drop</b><span>● ● ●</span></div>
+<div class="mockbody"><strong>Your links. One ZIP.</strong>
+<div class="symbol s2"></div></div>
+<div class="chips"><span>Paste links</span><span>Download files</span><span>Save as ZIP</span></div></div></div>
+<figcaption>Portfolio preview of the existing Velvet Drop website</figcaption>
+</figure>
+<h3>What you can do</h3>
+<ul>
+<li>Add or paste multiple download links into one place.</li>
+<li>Review and manage the links before downloading.</li>
+<li>Download multiple linked files in one workflow.</li>
+<li>Package the downloaded files into one ZIP archive for convenient saving.</li>
+</ul>
+<div class="project-links">
+<a class="btn" href="https://velvetdrop.hproco.workers.dev/" target="_blank" rel="noopener">Try Velvet Drop</a>
+<form method="dialog"><button class="btn alt">Close</button></form>
+</div></dialog></main>
+<footer>Haya’s Creative Portfolio</footer>
+</body>
+</html>
